@@ -1,0 +1,2 @@
+# LLamaIndex_Text2SQLProject
+LLamaIndex实践项目
