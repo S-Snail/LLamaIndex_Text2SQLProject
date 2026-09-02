@@ -1,6 +1,7 @@
 llama-index
 llama-index-llms-openai
 llama-index-embeddings-openai
+llama-index-embeddings-dashscope
 sqlalchemy
 pandas
 fastapi
@@ -8,3 +9,4 @@ uvicorn[standard]
 python-dotenv
 ipython
 llama-index-llms-dashscope
+llama-index-core

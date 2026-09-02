@@ -2,26 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd4f0d28-e772-473e-9719-30e0a3c968d7" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/LLamaInde_Text2SQLProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/fangchang.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/fangchan_table_questions.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/obj_index/default__vector_store.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/obj_index/docstore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/obj_index/graph_store.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/obj_index/image__vector_store.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/obj_index/index_store.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/row_indexes/房产信息/default__vector_store.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/row_indexes/房产信息/docstore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/row_indexes/房产信息/graph_store.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/row_indexes/房产信息/image__vector_store.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/row_indexes/房产信息/index_store.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/table_info/0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LLamaInde_Text2SQLProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LLamaInde_Text2SQLProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ingest_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/ingest_data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="3IjQiS2SmX4kwcTIl3w5tHZejDj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,11 +47,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.ingest_data.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/lizhongcheng/PycharmProjects/LLamaInde_Text2SQLProject/data"
+    "last_opened_file_path": "/Users/lizhongcheng/PycharmProjects/LLamaIndex_Text2SQLProject",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -42,6 +61,36 @@
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ingest_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LLamaInde_Text2SQLProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/ingest_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ingest_data" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
