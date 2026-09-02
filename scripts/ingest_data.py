@@ -1,5 +1,7 @@
 """
     将data中的文件向量化，存储到storage目录中
+    整体流程：
+        配置模型 → 建目录 → 读 CSV → LLM 生成表名/摘要 → 写入 SQLite → 建“表级”对象索引 → 建“行级”向量索引
 """
 import json
 import os

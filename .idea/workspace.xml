@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd4f0d28-e772-473e-9719-30e0a3c968d7" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/app/core/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/fangchan_table_questions.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/obj_index/default__vector_store.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/obj_index/docstore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/obj_index/graph_store.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/obj_index/image__vector_store.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/obj_index/index_store.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/row_indexes/房产信息/default__vector_store.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/row_indexes/房产信息/docstore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/row_indexes/房产信息/graph_store.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/row_indexes/房产信息/image__vector_store.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/row_indexes/房产信息/index_store.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/table_info/0.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LLamaInde_Text2SQLProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LLamaInde_Text2SQLProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    <list default="true" id="bd4f0d28-e772-473e-9719-30e0a3c968d7" name="更改" comment="数据源：读取csv文件，进行向量化存储到storage中；">
       <change beforePath="$PROJECT_DIR$/scripts/ingest_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/ingest_data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,6 +90,19 @@
       <option name="presentableId" value="Default" />
       <updated>1788275624499</updated>
     </task>
+    <task id="LOCAL-00001" summary="数据源：读取csv文件，进行向量化存储到storage中；">
+      <option name="closed" value="true" />
+      <created>1788365118472</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1788365118472</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="数据源：读取csv文件，进行向量化存储到storage中；" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据源：读取csv文件，进行向量化存储到storage中；" />
   </component>
 </project>
