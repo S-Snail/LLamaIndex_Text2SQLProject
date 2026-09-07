@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd4f0d28-e772-473e-9719-30e0a3c968d7" name="更改" comment="数据源：读取csv文件，进行向量化存储到storage中；">
-      <change beforePath="$PROJECT_DIR$/scripts/ingest_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/ingest_data.py" afterDir="false" />
+    <list default="true" id="bd4f0d28-e772-473e-9719-30e0a3c968d7" name="更改" comment="数据源：读取csv文件，进行向量化存储到storage中 -- 增加整体流程注释；">
+      <change afterPath="$PROJECT_DIR$/app/api/endpoints.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/api_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/test_to_sql_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "S-Snail"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/S-Snail/LLamaIndex_Text2SQLProject.git",
+    "accountId": "86c87403-7164-4b06-b865-4eff1bbb7ce4"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -27,18 +43,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.ingest_data.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/lizhongcheng/PycharmProjects/LLamaIndex_Text2SQLProject",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.ingest_data.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lizhongcheng/PycharmProjects/LLamaIndex_Text2SQLProject&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data" />
@@ -98,11 +114,20 @@
       <option name="project" value="LOCAL" />
       <updated>1788365118472</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="数据源：读取csv文件，进行向量化存储到storage中 -- 增加整体流程注释；">
+      <option name="closed" value="true" />
+      <created>1788369323189</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1788369323189</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="数据源：读取csv文件，进行向量化存储到storage中；" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据源：读取csv文件，进行向量化存储到storage中；" />
+    <MESSAGE value="数据源：读取csv文件，进行向量化存储到storage中 -- 增加整体流程注释；" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据源：读取csv文件，进行向量化存储到storage中 -- 增加整体流程注释；" />
   </component>
 </project>
